@@ -1,0 +1,26 @@
+{
+  "name": "backend_api",
+  "version": "1.0.0",
+  "description": "MEAN STACK_API",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/petit-boudha/BACKEND_API.git"
+  },
+  "author": "Elimane BA and Moussa DIOP",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/petit-boudha/BACKEND_API/issues"
+  },
+  "homepage": "https://github.com/petit-boudha/BACKEND_API#readme",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.19.2",
+    "express": "^4.17.3",
+    "mongoose": "^6.2.4",
+    "nodemailer": "^6.7.2"
+  }
+}
