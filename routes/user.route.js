@@ -1,8 +1,8 @@
 const express = require("express");
 const router = express.Router();
 
-const cleanBody = require("../middlewares/cleanbody");
-const { validateToken } = require("../middlewares/validateToken");
+const cleanBody = require("../middlewares/cleanbody.middlewares");
+const { validateToken } = require("../middlewares/validateToken.middlewares");
 
 const AuthController = require("../controllers/user.controller");
 

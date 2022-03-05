@@ -4,7 +4,7 @@ const { v4: uuid } = require("uuid");
 const { customAlphabet: generate } = require("nanoid");
 
 const { generateJwt } = require("../config/Jwt.config");
-const { sendEmail } = require("../config/mailer");
+const { sendEmail } = require("../config/nodemail.config");
 const User = require("../models/user.model");
 
 //Validation du schéma utilisateur
