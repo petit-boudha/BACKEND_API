@@ -4,7 +4,7 @@ const bodyParser = require("body-parser");
 require("dotenv").config();
 const PORT = 8080;
 
-const authRoutes = require("./routes/users");
+const authRoutes = require("./routes/user.route");
 
 mongoose
   .connect(process.env.MONGO_URI, {
